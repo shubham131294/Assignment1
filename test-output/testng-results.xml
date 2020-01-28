@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48669" started-at="2020-01-27T12:54:56Z" finished-at="2020-01-27T12:55:45Z">
+    <groups>
+      <group name="Flipkart">
+        <method signature="CompareAmazon_Flipkart.flipkartPrice()[pri:1, instance:com.qa.assignment1.tests.CompareAmazon_Flipkart@20deea7f]" name="flipkartPrice" class="com.qa.assignment1.tests.CompareAmazon_Flipkart"/>
+      </group> <!-- Flipkart -->
+      <group name="Amazon">
+        <method signature="CompareAmazon_Flipkart.amazonPrice()[pri:0, instance:com.qa.assignment1.tests.CompareAmazon_Flipkart@20deea7f]" name="amazonPrice" class="com.qa.assignment1.tests.CompareAmazon_Flipkart"/>
+      </group> <!-- Amazon -->
+    </groups>
+    <test name="Default test" duration-ms="48669" started-at="2020-01-27T12:54:56Z" finished-at="2020-01-27T12:55:45Z">
+      <class name="com.qa.assignment1.tests.CompareAmazon_Flipkart">
+        <test-method status="PASS" signature="setUpAmazon()[pri:0, instance:com.qa.assignment1.tests.CompareAmazon_Flipkart@20deea7f]" name="setUpAmazon" is-config="true" duration-ms="13903" started-at="2020-01-27T12:54:56Z" finished-at="2020-01-27T12:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAmazon -->
+        <test-method status="PASS" signature="amazonPrice()[pri:0, instance:com.qa.assignment1.tests.CompareAmazon_Flipkart@20deea7f]" name="amazonPrice" duration-ms="11300" started-at="2020-01-27T12:55:10Z" finished-at="2020-01-27T12:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.assignment1.tests.CompareAmazon_Flipkart@20deea7f]" name="tearDown" is-config="true" duration-ms="601" started-at="2020-01-27T12:55:21Z" finished-at="2020-01-27T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpFlipkart()[pri:0, instance:com.qa.assignment1.tests.CompareAmazon_Flipkart@20deea7f]" name="setUpFlipkart" is-config="true" duration-ms="15194" started-at="2020-01-27T12:55:22Z" finished-at="2020-01-27T12:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFlipkart -->
+        <test-method status="PASS" signature="flipkartPrice()[pri:1, instance:com.qa.assignment1.tests.CompareAmazon_Flipkart@20deea7f]" name="flipkartPrice" duration-ms="7058" started-at="2020-01-27T12:55:37Z" finished-at="2020-01-27T12:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.assignment1.tests.CompareAmazon_Flipkart@20deea7f]" name="tearDown" is-config="true" duration-ms="591" started-at="2020-01-27T12:55:44Z" finished-at="2020-01-27T12:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="comparePrice()[pri:2, instance:com.qa.assignment1.tests.CompareAmazon_Flipkart@20deea7f]" name="comparePrice" duration-ms="1" started-at="2020-01-27T12:55:45Z" finished-at="2020-01-27T12:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparePrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.assignment1.tests.CompareAmazon_Flipkart@20deea7f]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-01-27T12:55:45Z" finished-at="2020-01-27T12:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.assignment1.tests.CompareAmazon_Flipkart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
